@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reversi</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- https://develman.net/reversi-with-javascript-1/ -->
+    <link rel="stylesheet" href="CSS/sample.css" />
+    <script src="JS/paint.js" defer></script>
+  </head>
+  <body>
+    <!-- 盤面 -->
+    <header>
+     <h2>"待たせたな"</h2>
+    </header>
+   
+    <table id="field"></table>
+    <video id="video" class="video" src="movie/videoplayback.mp4" ></video>
+    <!-- ターンの表示 -->
+    <p id="view_tarn"></p>
+    <!-- 初期化ボタン -->
+    <button type="button" id="ban_init" onclick="ban_init()">やり直し</button>
+    <!-- セーブボタン -->
+    <button type="button" id="ban_seab" onclick="ban_seab()">セーブ</button>
+    <!-- ロードボタン -->
+    <button type="button" id="ban_load" onclick="ban_load()">ロード</button>
+  </body>
+</html>

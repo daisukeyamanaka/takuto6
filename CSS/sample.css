@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+}
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+main {
+  margin: 50px auto;
+  padding: 20px;
+
+  border-radius: 5px;
+  max-width: 500px; /*変更点*/
+  width: 80%;
+}
+#field td {
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(6, 214, 241);
+  text-align: center;
+  vertical-align: middle;
+  table-layout: fixed;
+  padding: 1px 1px 1px 1px;
+  font-size: 33px;
+}
+#field img{
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  table-layout: fixed;
+  padding: 1px 1px 1px 1px;
+  font-size: 33px;
+}
+
+.video{
+  display: none;
+}
+
+.sample ul li {
+  display: inline;
+  }
